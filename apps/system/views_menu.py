@@ -46,3 +46,5 @@ class MenuDeleteView(LoginRequiredMixin, View):
             except Menu.DoesNotExist:
                 raise Menu.objects.filter(id__in=id_list)
         return HttpResponse(json.dumps(ret), content_type='application/json')
+
+#ceshi
