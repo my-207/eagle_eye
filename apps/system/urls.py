@@ -26,6 +26,7 @@ urlpatterns = [
     path('rbac/menu/', views_menu.MenuListView.as_view(), name='rbac-menu'),
     path('rbac/menu/create/', views_menu.MenuCreateView.as_view(), name='rbac-menu-create'),
     path('rbac/menu/update/', views_menu.MenuUpdateView.as_view(), name='rbac-menu-update'),
+    path('rbac/menu/delete/', views_menu.MenuDeleteView.as_view(), name='rbac-menu-delete'),
 
     path('rbac/role/', views_role.RoleView.as_view(), name='rbac-role'),
     path('rbac/role/create/', views_role.RoleCreateView.as_view(), name='rbac-role-create'),
