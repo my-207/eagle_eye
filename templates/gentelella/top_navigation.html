@@ -36,7 +36,8 @@
                 <ul class="dropdown-menu">
                 <!-- The user image in the menu -->
                 <li class="user-header">
-                    <img src="/media/{{ request.user.image }}" class="img-circle" style="width: 50px;height: 50px;margin-top: 20px;margin-left: 80px;" alt="User Image">
+                    <img src="/media/{{ request.user.image }}" class="img-circle"
+                         style="width: 50px;height: 50px;margin-top: 20px;margin-left: 80px;" alt="User Image">
                     <p style="font-size: 20px;text-align: center;margin-top: 20px;">
                         {{ request.user.name }} - {{ request.user.department.title }}
                         <small>{{ request.user.email }}</small>
@@ -55,68 +56,69 @@
 
 
             <li role="presentation" class="dropdown">
-                <a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
-                    <i class="fa fa-envelope-o"></i>
-                    <span class="badge bg-green">6</span>
+{#                <a href="/system/" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">#}
+                <a href="/system/">
+{#                    <i class="fa fa-envelope-o"></i>#}
+                    <span class=" bg-green">系统设置</span>
                 </a>
-                <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">
-                    <li>
-                        <a>
-                            <span class="image"><img src="/static/images/img.jpg" alt="Profile Image"/></span>
-                            <span>
-                <span>John Doe</span>
-                <span class="time">3 mins ago</span>
-              </span>
-                            <span class="message">
-                Film festivals used to be do-or-die moments for movie makers. They were where...
-              </span>
-                        </a>
-                    </li>
-                    <li>
-                        <a>
-                            <span class="image"><img src="/static/images/img.jpg" alt="Profile Image"/></span>
-                            <span>
-                <span>John Doe</span>
-                <span class="time">3 mins ago</span>
-              </span>
-                            <span class="message">
-                Film festivals used to be do-or-die moments for movie makers. They were where...
-              </span>
-                        </a>
-                    </li>
-                    <li>
-                        <a>
-                            <span class="image"><img src="/static/images/img.jpg" alt="Profile Image"/></span>
-                            <span>
-                <span>John Doe</span>
-                <span class="time">3 mins ago</span>
-              </span>
-                            <span class="message">
-                Film festivals used to be do-or-die moments for movie makers. They were where...
-              </span>
-                        </a>
-                    </li>
-                    <li>
-                        <a>
-                            <span class="image"><img src="/static/images/img.jpg" alt="Profile Image"/></span>
-                            <span>
-                <span>John Doe</span>
-                <span class="time">3 mins ago</span>
-              </span>
-                            <span class="message">
-                Film festivals used to be do-or-die moments for movie makers. They were where...
-              </span>
-                        </a>
-                    </li>
-                    <li>
-                        <div class="text-center">
-                            <a>
-                                <strong>See All Alerts</strong>
-                                <i class="fa fa-angle-right"></i>
-                            </a>
-                        </div>
-                    </li>
-                </ul>
+{#                <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">#}
+{#                    <li>#}
+{#                        <a>#}
+{#                            <span class="image"><img src="/static/images/img.jpg" alt="Profile Image"/></span>#}
+{#                            <span>#}
+{#                <span>John Doe</span>#}
+{#                <span class="time">3 mins ago</span>#}
+{#              </span>#}
+{#                            <span class="message">#}
+{#                Film festivals used to be do-or-die moments for movie makers. They were where...#}
+{#              </span>#}
+{#                        </a>#}
+{#                    </li>#}
+{#                    <li>#}
+{#                        <a>#}
+{#                            <span class="image"><img src="/static/images/img.jpg" alt="Profile Image"/></span>#}
+{#                            <span>#}
+{#                <span>John Doe</span>#}
+{#                <span class="time">3 mins ago</span>#}
+{#              </span>#}
+{#                            <span class="message">#}
+{#                Film festivals used to be do-or-die moments for movie makers. They were where...#}
+{#              </span>#}
+{#                        </a>#}
+{#                    </li>#}
+{#                    <li>#}
+{#                        <a>#}
+{#                            <span class="image"><img src="/static/images/img.jpg" alt="Profile Image"/></span>#}
+{#                            <span>#}
+{#                <span>John Doe</span>#}
+{#                <span class="time">3 mins ago</span>#}
+{#              </span>#}
+{#                            <span class="message">#}
+{#                Film festivals used to be do-or-die moments for movie makers. They were where...#}
+{#              </span>#}
+{#                        </a>#}
+{#                    </li>#}
+{#                    <li>#}
+{#                        <a>#}
+{#                            <span class="image"><img src="/static/images/img.jpg" alt="Profile Image"/></span>#}
+{#                            <span>#}
+{#                <span>John Doe</span>#}
+{#                <span class="time">3 mins ago</span>#}
+{#              </span>#}
+{#                            <span class="message">#}
+{#                Film festivals used to be do-or-die moments for movie makers. They were where...#}
+{#              </span>#}
+{#                        </a>#}
+{#                    </li>#}
+{#                    <li>#}
+{#                        <div class="text-center">#}
+{#                            <a>#}
+{#                                <strong>See All Alerts</strong>#}
+{#                                <i class="fa fa-angle-right"></i>#}
+{#                            </a>#}
+{#                        </div>#}
+{#                    </li>#}
+{#                </ul>#}
             </li>
         </ul>
     </nav>

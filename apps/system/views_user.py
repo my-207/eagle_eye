@@ -25,7 +25,7 @@ User = get_user_model()
 class IndexView(LoginRequiredMixin, View):
 
     def get(self, request):
-        return render(request, 'index.html')
+        return render(request, 'gentelella/index.html')
 
 
 class LoginView(View):
